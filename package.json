@@ -1,0 +1,46 @@
+{
+  "name": "react-character-counter",
+  "version": "1.0.0",
+  "description": "A React Wrapper Component to display character counts against controllered input elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fakhir-shad/react-character-counter.git"
+  },
+  "author": "Fakhir Shad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fakhir-shad/react-character-counter/issues"
+  },
+  "homepage": "https://github.com/fakhir-shad/react-character-counter#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5"
+  },
+  "contributors": [
+    {
+      "name": "Muaaz Rafi",
+      "email": "muaaz.rafi@virtual-force.com",
+      "url": "https://github.com/muaaz-vf"
+    }
+  ],
+  "keywords": [
+    "react",
+    "character",
+    "counter",
+    "react-character-counter",
+    "react-bootstrap",
+    "bootstrap"
+  ]
+}
