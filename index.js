@@ -60,8 +60,8 @@ function (_Component) {
   }
 
   _createClass(CharacterCounter, [{
-    key: "componentDidUpdate",
-    value: function componentDidUpdate(prevProps) {
+    key: "componentDidMount",
+    value: function componentDidMount() {
       if (!this.props.overrideStyle) {
         var _this$divRef$current = this.divRef.current,
             firstChild = _this$divRef$current.firstChild,

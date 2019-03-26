@@ -15,7 +15,7 @@ const styleSheet = {
 export default class CharacterCounter extends Component {
   divRef = React.createRef();
 
-  componentDidUpdate(prevProps) {
+  componentDidMount() {
     if (!this.props.overrideStyle) {
       const { firstChild, lastChild } = this.divRef.current;
       lastChild.style.left = `${firstChild.clientWidth - 70}px`;

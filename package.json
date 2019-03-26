@@ -1,6 +1,6 @@
 {
   "name": "react-character-counter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React Wrapper Component to display character counts against controllered input elements",
   "main": "index.js",
   "scripts": {
